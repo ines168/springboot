@@ -10,7 +10,7 @@ public class DiController {
         this.service = service;
     }
 
-    public String getGreting() {
+    public String getGreeting() {
         return service.getGreeting();
     }
 }
