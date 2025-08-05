@@ -1,11 +1,11 @@
 package guru.springframework.diexample.repositories;
 
-import guru.springframework.diexample.database.DiDataStore;
+import guru.springframework.diexample.database.DataStore;
 
-public class DiRepo {
-    private DiDataStore store;
+public class DiRepoImpl implements Repo {
+    private DataStore store;
 
-    public DiRepo(DiDataStore store) {
+    public DiRepoImpl(DataStore store) {
         this.store = store;
     }
 

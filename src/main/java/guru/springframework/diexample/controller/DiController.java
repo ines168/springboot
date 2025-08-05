@@ -1,6 +1,7 @@
 package guru.springframework.diexample.controller;
 
 import guru.springframework.diexample.service.DiService;
+import guru.springframework.diexample.service.DiServiceImpl;
 
 public class DiController {
     private DiService service;
