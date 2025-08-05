@@ -31,7 +31,7 @@ public class DiControllerTest {
         String expectedGreeting = "hello world";
 
         //When
-        String actualGreeting = diController.getGreting();
+        String actualGreeting = diController.getGreeting();
 
         //Then
         assertEquals(expectedGreeting, actualGreeting);
